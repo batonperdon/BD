@@ -38,9 +38,9 @@ SELECT * FROM orders WHERE STATUS IN ('cancelled','in_progress','delivery')
 
 4.Добавьте в таблицу products новый товар — «VR-очки», стоимостью 70000 рублей в количестве (count) 2 штук.
 
- ![image](https://github.com/user-attachments/assets/dabf7dc4-b441-4a55-8bea-48950d5cd7dc)
+![image](https://github.com/user-attachments/assets/dabf7dc4-b441-4a55-8bea-48950d5cd7dc)
 
- ![image](https://github.com/user-attachments/assets/0154c806-38a1-45b6-b78f-ca24592eaeb0)
+![image](https://github.com/user-attachments/assets/0154c806-38a1-45b6-b78f-ca24592eaeb0)
 
 5.В таблицу products внесли данные с ошибкой, вместо "PS5" в наименовании написали IMAC. Исправьте ошибку.
 
