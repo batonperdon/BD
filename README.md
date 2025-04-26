@@ -68,6 +68,8 @@ SELECT * FROM orders WHERE STATUS IN ('cancelled','in_progress','delivery')
 ![image](https://github.com/user-attachments/assets/f5b6eff7-8216-45f7-bf00-02e2c8b9a2cc)
 
 ---------------------------------------------------------------------------
+#Лр 4
+-
 Создайте таблицу users для хранения информации о пользователях сайта.
 В таблице должны быть следующие поля:
 id – идентификатор, целое положительное;
