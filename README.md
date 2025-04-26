@@ -1,5 +1,7 @@
-![image](https://github.com/user-attachments/assets/c184f890-329d-408d-9c20-d6648cbd021e)#ЛР 1
+#Лр 1
 -
+![image](https://github.com/user-attachments/assets/c184f890-329d-408d-9c20-d6648cbd021e)
+
 1.Выберите из таблицы orders все заказы
 
 SELECT * FROM orders;
