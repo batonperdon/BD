@@ -1,5 +1,5 @@
 #ЛР 1
-
+-
 1.Выберите из таблицы orders все заказы
 
 SELECT * FROM orders;
@@ -25,7 +25,7 @@ SELECT * FROM orders WHERE STATUS IN ('cancelled','in_progress','delivery')
 
 ---------------------------------------------------------------------------
 #ЛР 2
-
+-
 1.Выберите из таблицы orders 3 самых дешевых заказа за всё время. Данные нужно отсортировать в порядке убывания цены. Отмененные заказы не учитывайте.
 
 ![image](https://github.com/user-attachments/assets/6bfc8818-b9be-4432-8c40-5371d3d39123)
@@ -58,7 +58,7 @@ SELECT * FROM orders WHERE STATUS IN ('cancelled','in_progress','delivery')
 
 ---------------------------------------------------------------------------
 #Лр 3 
-
+-
 Создайте таблицу users с полем id типа INT и двумя текстовыми полями, которые будут хранить имя (first_name) и фамилию (last_name). Длина имени и фамилии не превышает 50 символов.
 
 Добавьте в таблицу трех пользователей: Дмитрия Иванова, Анатолия Белого и Дениса Давыдова.
@@ -190,4 +190,13 @@ VALUES
 ![image](https://github.com/user-attachments/assets/29b5a2d4-2a94-4cfa-a1b5-a4f730fc330f)
 
 ---------------------------------------------------------------------------
+#Лр 5
+-
+![image](https://github.com/user-attachments/assets/ea0e31e6-3201-490c-a1b3-417f581fff66)
+
+Решение:
+-
+SELECT * FROM orders WHERE status != 'cancelled' ORDER BY sum DESC LIMIT 4;
+
+
 
