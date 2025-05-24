@@ -443,3 +443,17 @@ SELECT * FROM products;
 ![image](https://github.com/user-attachments/assets/c4dcd2d0-66cd-4bd8-8b92-5e716fa4e413)
 
 ---------------------------------------------------------------------------
+Экзамен
+-
+Выберите из таблицы products все товары стоимостью до 3000 рублей отсортированные в алфавитном порядке. Вывести нужно только имя (name), количество (count) и цену (price).
+
+![image](https://github.com/user-attachments/assets/60d51526-a2aa-4ea3-b5be-1474017d491e)
+
+Решение:
+-
+SELECT name, count, price
+FROM products
+WHERE price <= 3000
+ORDER BY name ASC;
+
+![image](https://github.com/user-attachments/assets/15c1af04-23ba-4f4b-b045-ca06bad2feae)
